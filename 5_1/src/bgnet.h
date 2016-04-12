@@ -12,6 +12,7 @@
 #include <sys/socket.h>
 #include <netdb.h>
 
+/*
 struct addrinfo {
     int              ai_flags;     // AI_PASSIVE, AI_CANONNAME, etc.
     int              ai_family;    // AF_INET, AF_INET6, AF_UNSPEC
@@ -44,5 +45,6 @@ struct sockaddr_in {
 //struct in_addr {
 //    uint32_t s_addr; // that's a 32-bit int (4 bytes)
 //};
-//
-//#endif /* BGNET_H_ */
+*/
+
+#endif /* BGNET_H_ */
